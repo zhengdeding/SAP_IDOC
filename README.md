@@ -131,13 +131,367 @@ SM66 Debug Async Update Tasks
 ST22 Dump Analysis
 
 
+## Transaction Codes of Interest
+
+AL05 Monitor current workload
+
+AL11 Display SAP Directories
+
+AL18 Local File System Monitor
+
+AL19 Remote File System Monitor
+
+AL21 ABAP Program analysis
+
+ALO1 Data Relationship Browser
+
+ANA_VAR Table Analysis: Analysis Variants
+
+BA10 Subsystem Config.
+
+BA11 Channel Definition for Transceiver
+
+BD10 Send Material
+
+BD100 IDoc display object channel view
+
+BD101 Consistency check
+
+BD102 Outbound registry
+
+BD103 Inbound registry
+
+BD104 maintain tbd53
+
+BD105 maintain tbd54
+
+BD11 Fetch Material
+
+BD12 Send customer
+
+BD13 Open customer
+
+BD14 Send vendor
+
+BD15 Open vendor
+
+BD16 Send Cost Center
+
+BD17 Get Cost Center
+
+BD18 Send General Ledger Account
+
+BD19 Get General Ledger Account
+
+BD20 IDoc passed to application
+
+BD21 Select change pointer
+
+BD22 Delete change pointers
+
+BD23 Delete serialization data
+
+BD24 Send Cost Elements
+
+BD25 Send Activity Type
+
+BD26 Get Activity Type
+
+BD27 Send cost center activity prices
+
+BD28 Send obj/cost element control data
+
+BD30 Distribute material object list
+
+BD31 Distribute document object list
+
+BD32 Distribute plant allocations(matBOM)
+
+BD40 Read change pointer for group
+
+BD41 Dispatch IDocs for group
+
+BD42 Check IDocs for group
+
+BD43 Post IDocs for group
+
+BD44 Assign message types to ser. group
+
+BD47 Dependencies between methods
+
+BD48 Dependency method - message
+
+BD50 Activ. change pointer for mess.type
+
+BD51 Maintain function modules (inbound)
+
+BD52 Activ.change pointer per chng.doc.it
+
+BD53 Reduction of IDoc types
+
+BD55 Maintain IDoc conversion
+
+BD56 Maintain IDoc segment filtering
+
+BD57 Maintain link and serialization ty.
+
+BD58 Convert Org. units
+
+BD59 Allocation object type -> IDoc type
+
+BD60 Additional data for message type
+
+BD61 Activate change pointer
+
+BD62 Define segment conversion rule
+
+BD63 Transport ALE tables to message type
+
+BD65 Maintain IDoc type required fields
+
+BD66 IDoc type field -> change doc.field
+
+BD67 Maintain input methods
+
+BD68 Maintain lists
+
+BD69 Assign message type to IDoc
+
+BD70 Adjust number ranges
+
+BD72 Activate events
+
+BD73 Reposting of IDocs (ALE)
+
+BD75 Convert IDoc status
+
+BD76 Model upload/download monitoring
+
+BD77 Distribution of control data
+
+BD78 Monitoring control data distribution
+
+BD79 Maintain IDoc conversion rules
+
+BD80 Conversion pre-production/production
+
+BD81 Filter objects parameter filtering
+
+BD83 Send IDocs after an ALE error
+
+BD84 Post IDocs after ALE error
+
+BD85 Consistency check for transfer
+
+BD86 Consistency check for sales
+
+BD89 Control data model. - initial screen
+
+BD90 Start DA-OU
+
+BD91 Send characteristic
+
+BD92 Send class
+
+BD93 Send classification
+
+BD94 OA - file transfer
+
+BD95 Specify ALE object types
+
+BD96 filter objects of receiver determin.
+
+BD97 Assign RFC dest. to logical systems
+
+BD98 ALE consistency check active
+
+BD99 Message type dependencies
+
+BDA1 Call RSARFCEX
+
+BDA4 Specify ALE object types
+
+BDA5 Distribute documents
+
+BDBG Generate ALE interface (BAPI)
+
+BDBP Hierarchy maintenance of BAPI param.
+
+BDBS Generate coding for mapping
+
+BDCP Number range maintenance: ALE_CP
+
+BDLS Mapping Logical System Names
+
+BDM2 Monitoring: IDocs with receiver
+
+BDM5 Consistency check
+
+BDM6 Monitor: Check input workflow
+
+BDM7 ALE Audit: statistical analyses
+
+BDM8 ALE Audit: Sending the confirmations
+
+BDM9 Reorganizing the audit database
+
+BDMC Upload info structures
+
+BDR1 Display application log for recovery
+
+BDR2 Reorganization of recovery data
+
+BDRC ALE: Determine recovery objects
+
+BDRL ALE: Process recovery objects
+
+OE2C Process Code Inbound
+
+OYE0 EDI: Maintain Port Def. arfc
+
+OYE3 Display EDI Ports
+
+OYE4 Display ALE Ports
+
+OYED Maintain Port Definitions
+
+OE3C System Process Code
+
+OE1C Process Code (OutB)
+
+OYEL Display EDP21 (InB Partner Profile)
+
+OYEX Create EDP21 (InB Partner Profile Overview)
+
+OYEH Display EDP12 (Msg Control)
+
+OYER Create EDP12 (Msg Control Overview)
+
+OYEI Display EDP13 (OutB Partner Profile)
+
+OYEU Create EDP13 (OutB Partner Profile overview)
+
+OYSM Number Range Port Definition
+
+OYSN Number Range For IDOCS
+
+OYSO Number Range IDOC Types
+
+WE08 EDI: File Processing Status (EDFI2)
+
+WE09 IDoc lists enhanced
+
+WE10 IDoc lists enhanced
+
+WE14 IDoc test: Outb. from IDoc
+
+WE30 IDoc type editor
+
+WE32 View editor
+
+WE33 Value tables for IDoc documentation
+
+WE40 System process codes
+
+WE41 Process codes, outbound
+
+WE42 Process codes, inbound
+
+WE43 Funct.module: Status record display
+
+WE44 Partner Types and selection reports
+
+WE45 Forward (inbound) (V3, EDILOGADR)
+
+WE46 IDoc administration
+
+WE47 Status Maintenance
+
+WE48 Inbound process codes: Texts
+
+WE49 Inbound process codes: Change texts
+
+WE50 System process codes: Texts
+
+WE51 System process codes: Change texts
+
+WE52 Outbound process codes: Texts
+
+WE53 Outbound process codes: Change texts
+
+WE54 FMs for changing file names
+
+WE55 FMs for path names
+
+WE56 Status process codes
+
+WE57 Messages and application objects
+
+WE58 Status process codes: Texts
+
+WE59 Change status process codes
+
+WE62 Documentation for segments
+
+WE63 Parser for IDoc types and rec.types
+
+WE70 Conversion: Basic types
+
+WE71 Conversion: Extensions
+
+WE72 Conversion: IDoc types
+
+WE73 Conversion: Logical messages
+
+WE80 IDoc types: Overview
+
+WE81 Logical message types
+
+WE82 Assignment IDoc type - Message
+
+WE83 Extensions: Overview (EDCIM)
+
+WE84 Assignment of IDoc and appl. fields
+
+WECP Display CPIC interface status (R/2)
+
+WEL0 Forward (inbound) (EDILOGADR)
+
+WEL1 EDI: Interface Invoice for EDILOGADR
+
+WENA Messages on basis of changes
+
+
+## WorkFlow Configuration
+
+OOAW & SWLV Subordinate And Peer Definition
+
+PFAC Standard Roles
+
+PO13 Maintain Substitutes
+
+SWO1 Business Object Builder
+
+
+## Code Task Number Description
+
+EDIM TS00007988 No IDOC Created Yet
+
+EDIO TS00007989 Error In Outbound Process
+
+EDIX TS00008070 Syntax Error Outbound
+
+EDII TS00008068 Error In Inbound Process
+
+EDIY TS00008074 Syntax Error Inbound
+
+EDIS TS00000078 Error in SubSystem
+
+(Maintained in WE40)
 
 
 
-
-
-
-
+## IDOC Xref–SAP / ANSI X.12 / EDIFACT
 
 
 
