@@ -16,4 +16,18 @@ SALE ALE Configuration
 NACE Message Control Configuration
 
 
+## IDOC Definition
+
+SE11 Data Dictionary
+
+WE30 IDoc type editor
+
+WE31 Segment editor
+
+BD53 Reduction of IDoc types
+
+WE60 Documentation for IDoc types
+
+WE61 Documentation for IDoc record types
+
 
