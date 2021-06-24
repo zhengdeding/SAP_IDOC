@@ -3,7 +3,7 @@ SAP ALE IDOC Quick Reference Guide
 
 Main Transaction Codes
 
-Main Menus
+## Main Menus
 
 WEDI EDI Related Activities
 BALE ALE Related Activities
