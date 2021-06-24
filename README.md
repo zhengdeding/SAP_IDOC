@@ -516,7 +516,7 @@ EDIS TS00000078 Error in SubSystem
 |DELFOR01 |DELINS |862 |DELJIT |X |X|
 |DELVRY01 |DESADV |856 |DESADV |X |X|
 |FINSTA01 |FINSTA | |FINSTA |X| |
-|GSVERF01 |GSVERF |861 |X |X|
+|GSVERF01 |GSVERF |861|  |X |X|
 |INVOIC01 |INVOIC |810 |INVOIC |X |X|
 |INVOIC01 |INVOIC |880 |INVOIC |X |X|
 |FINSTA01 |LOCKBX |823 | |X||
@@ -553,6 +553,47 @@ EDIS TS00000078 Error in SubSystem
 |DELVRY01 |WHSCON |945 ||X||
 |DELVRY01 |WHSORD |940 |||X|
 
+##  Frequent General Transaction Categories
+
+AL System Monitoring
+
+BD EDI & ALE
+
+CO Production Planning
+
+DB Database
+
+FB Vendors
+
+IW Plant Maintenance
+
+OL Config Related
+
+OS Operating System Monitor
+
+PA HR
+
+RZ CCMS Monitoring
+
+SA System Administration
+
+SE Development
+
+SM System Maintenance
+
+SO SAPOffice
+
+SP Spool
+
+ST Performance and Tuning
+
+SU Security
+
+SW Workflow
+
+VA Sales
+
+WE EDI
 
 
 
