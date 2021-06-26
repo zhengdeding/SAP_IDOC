@@ -596,4 +596,125 @@ VA Sales
 WE EDI
 
 
+## Programs of Interest
+
+MSEIDOC2 IDoc Statistics 
+
+MSEIDOC3 IDoc Lists 
+
+MSESTA00 Status Maintenance (Tables TEDS!, TEDS2, TEDS3) via View 
+
+RBDAGAI2 Re-Process of IDOCs after ALE input error 
+
+RBDAGAIE ReProcess of edited IDOCs 
+
+RBDAGAIN Re-Process incorrect IDOCs. (OutB) 
+
+RBDAPP01 IDoc InB Process ready for transfer 
+
+RBDAUD01 Statistical analyses for the ALE Audit 
+
+RBDAUD02 Reorg audit DB - deleting table entries 
+
+RBDAUTHI Include that contains all Auth checks 
+
+RBDAUTHO Check Auths 
+
+RBDCCMS1 IDocs for aRFC 
+
+RBDCHECK Check IDOC Structure Against DB Tables 
+
+RBDCICO1 Monitoring Via Checkin/Checkout For The ALE Customer Model 
+
+RBDCNST2 Constants for Consist. Check 
+
+RBDCPCLR Delete Change Pointers 
+
+RBDCREO Reorg Batch Input Session Logs 
+
+RBDCSUB Release BDC Sessions 
+
+RBDCUS01 Direct Customer Model Maintenance 
+
+RBDCUS02 Transport of ALE Tables for a Msg Type 
+
+RBDCUS03 X-System Comparison of Number Range Objects 
+
+RBDCUS04 Sending Model to Logical Systems 
+
+RBDCUS15 Generating the partner profiles 
+
+RBDCUS16 Data: Generating The Partner Protocols 
+
+RBDCUS17 Routines: Generating The Partner Protocols 
+
+RBDCUS19 ALE Consist. Checking 
+
+RBDCUS23 ALE Consist. Check: Transfer Between Two Systems 
+
+RBDCUS24 Parameters for Report RBDCUS23 
+
+RBDCUS25 Interface control for RBDCUS23 
+
+RBDCUS26 ALE Consist. Check: Create Purchase Order from Sales Order 
+
+RBDCUS27 Data: Consist. Checking for SD Scenario 
+
+RBDCUS28 Routines: Consist. Checking for SD Scenario 
+
+RBDCUS31 Complete view of the Msg flow from view of one system. 
+
+RBDCUS33 Changing the Call Parameters for DA-OU 
+
+RBDCUS34 ALE Consist. Check 
+
+RBDCUS35 Modelling the control data distribution 
+
+RBDDATTR Upload/Download Data from the Org. Architect via Files 
+
+RBDEVACT Activate Events for ALE/EDI 
+
+RBDFECLF Fetch Classifications 
+
+RBDFECRE Request Get Vendor Data 
+
+RBDIDOCA Object Type IDOC: EDI IDOC 
+
+RBDIDOCR IDOC Reduction 
+
+RBDINPUT Process of incoming IDOCs. 
+
+RBDMANIN Start Error Handling for Non-posted IDOCs 
+
+RBDMIDOC Generate IDoc type from change pointers 
+
+RBDMMSD1 Consist. Check: Reassignment Between Two Systems 
+
+RBDMOIN1 IDoc list 
+
+RBDMOIN2 IDoc display 
+
+RBDMOIN3 IDoc overview 
+
+RBDMOIN4 Time Distribution of IDOC Creation 
+
+RBDMOIN5 Statuses Reached 
+
+RBDMOIN6 Detailed Data on IDoc status 
+
+RBDMOIN7 Check: Customer model definitions <--> Partner profiles 
+
+RBDMOIN8 X-system IDOC Reporting 
+
+RBDMOIN9 X-system Analysis Whether IDOC Dispatch is Possible 
+
+RBDMOINB Display: IDoc in sending system ==> IDoc in receiving system 
+
+RBDMOINC Consist. check for input 
+
+RBDMOIND Status Conversion for Successful RFC Execution
+
+
+
+
 
