@@ -932,56 +932,103 @@ SAPMSED8 IDoc Doc. tools menu
 ## Tables of Interest In EDI
 
 ARCH_OBJ Objects for Archiving 
-BDAUDQUEUE ALE Audit queue with not-processed 
-IDOCs 
+
+BDAUDQUEUE ALE Audit queue with not-processed IDOCs 
+
 BDAUDSTATE Statistical key figures for the ALE Audit 
+
 BDCP Chg pointer 
+
 BDCPS Chg pointer: Status 
+
 BDSER Serialization: last date of object at sender 
+
 BTCUED User event IDs for background processing 
+
 CDHDR Change document header 
+
 CDPOS Change document items 
+
 CIMHIS EDI: Predecessors of Ext Types 
+
 CIMSYN Table for Syntax Desc of IDoc Type Exts 
+
 EDADM EDI client-specific system parameters 
+
 EDCIM EDI: Value Table for Cust. Ext Types 
+
 EDCIMT EDI: Short Desc of Ext Types 
+
 EDE1T EDI: Text table for OutB process codes 
+
 EDE2T EDI: Text table for iInB process codes 
+
 EDE5T EDI: Text table for error processing codes 
+
 EDE6T IDOC: Text table for proc cds for iInB statuses 
+
 EDFI2 EDI: Last processed Doc in file 
+
 EDFIL EDI: Last processed Doc in file 
+
 EDI_MONIT WF-EDI: Struc. for Dflt Values in EDI Mon 
+
 EDI30C IDOCClusters 3.0C Onward 
+
 EDI40 IDOC Records for 4.0 - 
+
 EDICONFIG CA-EDI: Param tbl for user configuration 
+
 EDID2 Data seg (IDOC) from 3.0C 
+
 EDID2 IDOC segments (version 3.1) 
+
 EDID3 Data seg table (EDI IDocs) from 3.0 
+
 EDID4 IDOC segments (version 4.6) 
+
 EDIDC Control record (EDI Intermediate Doc) 
+
 EDIDC IDOC Control Records 
+
 EDIDD Data seg (EDI Intermediate Doc) 
+
 EDIDO Value table for IDoc types 
+
 EDIDO Value table for IDoc types 
+
 EDIDOT Short Desc of IDoc types 
+
 EDIDOT Short description of IDoc types 
+
 EDIDS IDOC Status Records 
+
 EDIDS Status record (EDI IDoc) 
+
 EDIE5 Assign log. addr to phys destination in SAP 
-EDIFCT IDoc: Asgmnt of FM to log. Msg and IDoc 
-type 
+
+EDIFCT IDoc: Asgmnt of FM to log. Msg and IDoc type 
+
 EDIFM IDoc: FMs for creating file names 
-EDIFMT IDoc: Text table for EDIFM (funct. module for 
-file names) 
+
+EDIFMT IDoc: Text table for EDIFM (funct. module for file names) 
+
 EDILOGADR Assign logical address to physical destination 
-EDIMAP EDI: Asgmnt Table Between IDoc and 
-Application Flds 
+
+EDIMAP EDI: Asgmnt Table Between IDoc and Application Flds 
+
 EDIMSG EDI: Msg Types and Asgmnt to IDoc Types 
+
 EDIMSGT Short Desc of SAP Msg types 
+
 EDIPHONE CA-EDI: Telephony data for partner profiles 
+
 EDIPO Table for Desc of ports for EDI 
+
 EDIPOI Table for describing Internet ports 
-EDISEG EDI: IDoc Type Segs with Asgmnt to Seg 
-Type
+
+EDISEG EDI: IDoc Type Segs with Asgmnt to Seg Type
+
+
+
+
