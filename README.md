@@ -1029,6 +1029,124 @@ EDIPOI Table for describing Internet ports
 
 EDISEG EDI: IDoc Type Segs with Asgmnt to Seg Type
 
+EDISEGT EDI: Short Desc of Segs in EDSEA/EDISEG 
 
+EDISYN Docation Table for Generated Syntax of IDoc Types 
+
+EDIVAL Ref. From Check Table to Languagedependent Table 
+
+EDMAT EDI: Texts for the 'Maturity Levels' in partner profile 
+
+EDMSG Value table for SAP Msg types 
+
+EDP12 EDI PP: OutB Table 2 (Find Process Code) 
+
+EDP13 EDI PP: OutB Table 3 (Log. Msg) 
+
+EDP21 EDI PP: IInB Table 1 (Find Code f. Process Type) 
+
+EDPI1 EDI: Partner profiles (iInB) 
+
+EDPO1 EDI table for partner profiles (OutB), level 1 
+
+EDPP1 EDI PP: List of EDI Partners (IInB and OutB) 
+
+EDSEA EDI: Table of all segs of current release 
+
+EDSEG EDI: Convert segs to 3.0 
+
+EDSVRS EDI: Table of all segs of current release 
+
+EDSYN EDI: Convert IDoc type syntax to 3.0 
+
+IDOCHIS EDI: Predecessor of basic IDoc types 
+
+IDOCSYN CA-EDI: Syntax Desc for basis IDoc types 
+
+IDOCVRS EDI: IDoc type versions created by Cust.s NAST Message Status 
+
+TBD00 Cust. models 
+
+TBD03 Communication relation between systems 
+
+TBD10 Def., out of which IDOC Flds a filter object is to be read 
+
+TBD12 Map Msg type -> serialization and link type 
+
+TBD13 Org units to be converted in IDoc Flds 
+
+TBD14 Msg type -> object type 
+
+TBD20 ALE: data for IDOC projection filter 
+
+TBD21 ALE: IDOC reduction 
+
+TBD22 ALE: map IDOC-Flds to Chg Doc Flds 
+
+TBD23 ALE: definition of mandatory segs/Flds 
+
+TBD30 ALE: Conversion rules for IDOc segs 
+
+TBD50 Msg-dependent attributes for IDOC input methods 
+
+TBD51 Attributes of IDOC input function modules 
+
+TBD52 Function modules for iInB ALE-EDI 
+
+TBD62 Asgmnt of Chg Doc field to Msg type 
+
+TBDA1 ALE active 
+
+TBDA2 ALE Msg active 
+
+TBDLI Listings for a logical system 
+
+TBDLS Logical system 
+
+TBDLST Text for logical system 
+
+TBDLT Lists for a logical system for ALE distribution 
+
+TBDME ALE supplement data for EDI Msg type 
+
+TBDMS Asgmnt of Msg type to IDoc type for ALE 
+
+TBDRCSTATE Objects in Recovery environment (ALE) 
+
+TEDE1 EDI process types (OutB) 
+
+TEDE2 EDI process types (iInB) 
+
+TEDE3 Function module, which displays EDIDS record 
+
+TEDE5 EDI Process codes for error handling 
+
+TEDE6 IDOC process codes for iInB statuses 
+
+TEDEF Assign proc. type to funct. module that processes proc. type 
+
+TEDS1 IDoc status values 
+
+TEDS2 Short Desc of IDoc status values 
+
+TEDS3 EDI status values: Importance/qualification 
+
+TEDST SAP EDI Form routines to read master data 
+
+TEDTT EDI: Partner Types - Language-dependent Names 
+
+TEDWL Channel definition for transceiver 
+
+TEUDES Configuration of upload files 
+
+TEUPL Configuration of upload files 
+
+TEUPLT Name of configuration IDoc for transceiver 
+
+TKANA Entries for channel definitions 
+
+TKANAT Descs for channel definitions 
+
+TNAPR Pgms for output. Pgm to SAPScript.
 
 
