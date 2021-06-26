@@ -2,8 +2,8 @@
 
 SAP ALE IDOC Quick Reference Guide
 
-Main Transaction Codes
 
+# Main Transaction Codes
 
 ## Main Menus
 
@@ -1483,7 +1483,7 @@ TNAPR Pgms for output. Pgm to SAPScript.
 
 
 
-User Exits and Enhancements
+## User Exits and Enhancements
 
 
 
