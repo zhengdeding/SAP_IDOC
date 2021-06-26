@@ -1150,3 +1150,146 @@ TKANAT Descs for channel definitions
 TNAPR Pgms for output. Pgm to SAPScript.
 
 
+## IDOC Status Codes
+
+00 Not used, only R/2 
+
+01 IDoc created 
+
+02 Error passing data to port 
+
+03 Data passed to port OK 
+
+04 Error within control information of EDI subsystem 
+
+05 Error during translation 
+
+06 Translation OK 
+
+07 Error during syntax check 
+
+08 Syntax check OK 
+
+09 Error during interchange handling 
+
+10 Interchange handling OK 
+
+11 Error during dispatch 
+
+12 Dispatch OK 
+
+13 Retransmission OK 
+
+14 Interchange Acknowledgement positive 
+
+15 Interchange Acknowledgement negative 
+
+16 Functional Acknowledgement positive 
+
+17 Functional Acknowledgement negative 
+
+18 Triggering EDI subsystem OK 
+
+19 Data transfer for test OK 
+
+20 Error triggering EDI subsystem 
+
+21 Error passing data for test 
+
+22 Dispatch OK, acknowledgement still due 
+
+23 Error during retransmission 
+
+24 Control information of EDI subsystem OK 
+
+25 Processing despite syntax error (outbound) 
+
+26 Error during syntax check of IDoc (outbound) 
+
+27 Error in dispatch level (ALE service) 
+
+28 Not used 
+
+29 Error in ALE service 
+
+30 IDoc ready for dispatch (ALE service) 
+
+31 Error - no further processing 
+
+32 IDoc was edited 
+
+33 Original of an IDoc which was edited 
+
+34 Error in control record of IDoc 
+
+35 IDoc reloaded from archive 
+
+36 Electronic signature not performed (timeout) 
+
+37 IDoc added incorrectly 
+
+38 IDoc archived 
+
+39 IDoc is in the receiving system (ALE service) 
+
+40 Application document not created in receiving system 
+
+41 Application document created in receiving system 
+
+42 IDoc was created by test transaction 
+
+50 IDoc added 
+
+51 Error: Application document not posted 
+
+52 Application document not fully posted 
+
+53 Application document posted 
+
+54 Error during formal application check 
+
+55 Formal application check OK 
+
+56 IDoc with errors added 
+
+57 Test IDoc: Error during application check 
+
+58 IDoc-Copy from an R/2 connection 
+
+59 Not used 
+
+60 Error during syntax check of IDoc (inbound) 
+
+61 Processing despite syntax error (inbound) 
+
+62 IDoc passed to application 
+
+63 Error passing IDoc to application 
+
+64 IDoc ready to be transferred to application 
+
+65 Error in ALE service 
+
+66 IDoc is waiting for predecessor IDoc (serialization) 
+
+67 Not used 
+
+68 Error - no further processing 
+
+69 IDoc was edited 
+
+70 Original of an IDoc which was edited 
+
+71 IDoc reloaded from archive 
+
+72 Not used, only R/2 
+
+73 IDoc archived 
+
+74 IDOC was created by Test Transaction
+
+
+## IDOC Types
+
+
+
