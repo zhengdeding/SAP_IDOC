@@ -1356,3 +1356,127 @@ TNAPR Pgms for output. Pgm to SAPScript.
 |DISTU2 |Reasons for problems CC2 |
 |DOCMAS01 |Mstr. document |
 |DOCMAS02 |Document 02|
+|DWLOAD Dwnld transceiver configuration |
+|EKSEKS01 |Purchasing document data for Purchasing Info System |
+|EXPINV01 |Export Invoice IDOC (E.F.I.) |
+|EXTWA1 |External wage types |
+|FIDCCH01 |IDoc for FI document changes (dunning block) |
+|FIDCCP01 |IDoc: Complete FI document |
+|FIDCMT01 |IDoc for FI documents |
+|GLCORE01 |Mstr. data G/L accounts: Core IDoc |
+|GLDCMT01 |IDoc type for GLX rollups |
+|GLMAST01 |Mstr. data G/L accounts: Max. IDoc |
+|GSVERF01 |IDoc input credit memo procedure |
+|HRMD_A01 |HR: Mstr. and Org. data (application system) |
+|HRMD_B01 |HR: Mstr. and Org. data (basis system) |
+|HRPAYP01 |HR - XFer FI/CO |
+|HRPLL40 |Logistics Conf.s for HR Mgmt |
+|HRTRVL01 |HR-TRV: XFer travel expenses FI/CO |
+|IDCREF01 |Reference message as logical grouping for electron.signature |
+|INFREC01 |Purchasing info record |
+|INV_ID01 |Invoice |
+|INVCON01 |Stock change data for inventory controlling |
+|INVOIC01 |Invoice/Billing document |
+|KNOMAS01 |Mstr. object dependencies basic data |
+|LABELS00 |ISR labeling: label |
+|LIS_EXTR |LIS InB interface for external data |
+|LOCAT5 |Location in CC5 |
+|LOIBOM01 |Mstr. bill of Mat. |
+|LOICAL01 |Mstr. calendar |
+|LOINUM01 |Number of IDocs sent |
+|LOIPLO01 |Mstr. planned order |
+|LOIPRO01 |Mstr. production order |
+|LOIRNH01 |Mstr. hierarchy/networks |
+|LOIROU01 |Mstr. routing |
+|LOIRSH01 |Mstr. run schedule header |
+|LOISTD01 |Mstr. Reqs/stock list |
+|LOIWCS01 |Mstr. work center |
+|MALFK5 |CC5 reasons for scrap |
+|MATCOR01 |Core Mstr. Mat. |
+|MATMAS01 |Mat. Mstr. |
+|MATMAS02 |Mat. Mstr. |
+|OPERA2 |Operations in CC2 |
+|OPERA3 |Operations in CC3 |
+|OPERA4 |Operations in CC4 |
+|OPERS3 |Operation status in CC3 |
+|OPERS4 |Operation status in CC4 |
+|ORD_ID01 |Req.for quot./quotation/purchase order/order change |
+|ORDERS01 Purchasing/Sales |
+|ORDERS02 Purchasing/Sales |
+|OSTAT2 Process status CC2 |
+|PEROP2 Person reference to operation |
+|PERSO1 Personnel Mstr. records in CC1 |
+|PERSO2 |Personnel Mstr. in CC2 |
+|PERSO3 |Personnel Mstr. in CC3 |
+|PERSO4 |Personnel Mstr. in CC4 |
+|PEXR2001 |Payment/payment advice note/credit memo/debit advice |
+|PKHD5 |CC5 kanban control cycles |
+|PKPS5 |CC5 Kanban container |
+|PKST5 |CC5 status for kanban container |
+|PLANT3 |Plants in CC3 |
+|PLANT4 |Plants in CC4 |
+|REQUI2 |Conf. request in CC2 |
+|REQUI3 |Conf. request in CC2 |
+|REQUI4 |Conf. request in CC4 |
+|REQUI5 |Conf. request in CC5 |
+|SDPAID01 |Shipping element data Conf. to customer delivery |
+|SDPIID01 |Picking data Conf. to customer delivery |
+|SDPIOD01 |Picking notification to subsystem|
+|SHPMNT01 |Transport |
+|SISCSO01 |VIS - Sales order |
+|SISDEL01 |VIS - delivery |
+|SISINV01 |VIS - billing document |
+|SOPGEN01 |General info structure Dist. |
+|SRCLST01 |Source List |
+|SRVMAS01 |Service Mstr. record with texts |
+|SYIDOC01 |CA-EDI: Transport of IDoc types |
+|SYNCHRON |Dummy IDoc type for synchronous communication |
+|SYRECD01 |CA-EDI: Transport of IDoc record types |
+|SYSTAT01 |CA-EDI: XFer from status records |
+|TPSDLR01 |Selection via variant from external system |
+|TPSDLS01 |Dispatch of delivery documents to shipping planning system |
+|TPSLOC01 |Dispatch of location Mstr. data to transport planning syst. |
+|TPSSHT01 |Dispatch of planned shipments from transport planning system| 
+|TXTRAW01 |WF-EDI: XFerring free text to SAPoffice format 'RAW' |
+|UNIMA2 |Alternative units of measure |
+|UNIT2 |Units in CC2 |
+|UNIT3 |Units in CC3 |
+|UNIT4 |Units in CC4 |
+|UPLOAD |Configuration transceiver for upload |
+|VTAMAS01 |Mstr. variants table |
+|VTMMAS01 |Mstr. maintenance table contents |
+|WBB_ID01 |Source list: Product message (3.0A) |
+|WBBDLD01 |Assortment list: Mat. data |
+|WBBDLD02 |Assortment list: Mat. data (Rel. 4.0) |
+|WGSREQ01 |Order receipt IS-R |
+|WMBIID01 |Block Storage Bins |
+|WMCAID01 |Reversal/Reversal request for XFer order |
+|WMINID01 |Information text for link to subsystems |
+|WMIVID01 |Enter count results |
+|WMMBID01 |Goods movements for mobile data entry |
+|WMRRID01 |Release reference number |
+|WMSUID01 |Move storage unit |
+|WMTCID01 |Confirm XFer order |
+|WMTOID01 |Transport request |
+|WMTRID01 |XFer Req |
+|WORKC2 |Workcenters in CC2 |
+|WORKC3 |Workcenters in CC3 |
+|WORKC4 |Workcenters in CC4 |
+|WP_EAN01 |POS interface: Upload/Dwnld EAN assignments |
+|WP_PER01 |POS interface: Upload/Dwnld person data |
+|WP_PLU01 |POS interface: Upload/Dwnld article Mstr. |
+|WP_PLU02 |New segments in Mat. Mstr.: scales and discount in kind |
+|WPDCUR01 |POS interface: Dwnld exchange rates |
+|WPDNAC01 |POS interface: Dwnld products |
+|WPDSET01 |POS interface: Dwnld set assignments |
+|WPDTAX01 |POS interface: Dwnld tax rates |
+|WPDWGR01 |POS interface: Dwnld Mat. group Mstr. |
+|WPUBON01 |POS interface: Upload sales docs (trnsctns), non-aggregated |
+|WPUERR01 |POS interface: Upload messages SRS/POS/SCS |
+|WPUFIB01 |POS interface: Upload Fin.Acc. interface SRS/POS |
+|WPUKSR01 |POS Interface: InB processing cashier data for POS stats |
+|WPUTAB01 |POS interface: Upload day-end closing POS |
+|WPUUMS01 |POS interface: Upload sales data (compressed) |
+|WPUWBW01 |POS interface: Upload goods movements|
+
+
