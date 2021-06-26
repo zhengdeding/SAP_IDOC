@@ -714,7 +714,274 @@ RBDMOINC Consist. check for input
 
 RBDMOIND Status Conversion for Successful RFC Execution
 
+RBDMOINF Consist. check for workflow for ALE/EDI InB error Process 
+
+RBDMOINM Model upload/download monitoring 
+
+RBDOUTPU Process outgoing IDOCs 
+
+RBDPARPR Conversion of process codes in existing partner protocols 
+
+RBDPRFTB Value Tables for a Msg Type 
+
+RBDPROSE Converting ALE Settings for Productive Operation 
+
+RBDRCCLR Reorganization of data in recovery objects 
+
+RBDRCLOG Display Appl log of recovery process 
+
+RBDRCOBJ ALE: Process recovery objects 
+
+RBDREO01 Reorganize Long-Term Links 
+
+RBDSALE Msg output, that SALE no longer exists 
+
+RBDSALE1 Call of ALE IMG 
+
+RBDSDMM1 Consist. Check: Create Purchase Order From Sales Order 
+
+RBDSECRE Send creditor data 
+
+RBDSEDEB Customers - send 
+
+RBDSTATE Sending Confirmations For The ALE Audit 
+
+RBDSYNEI Continue Process IDoc despite syntax error (InB) 
+
+RBDSYNEO Continue Process IDoc despite syntax error (OutB) 
+
+RBDSYNER Process IDoc despite syntax error 
+
+RBDTABCO Table Analyses 
+
+RBDTBD22 Mapping between change document and IDoc 
+
+RBDTBD23 Required IDoc fields 
+
+RBDTBDA1 Activate Change Pointer 
+
+RBDTRAN1 Generates transport requests for ALE control data distribution 
+
+RBDTRAN2 Monitoring transport of control data 
+
+RBDTRANS object type TRANSID: Transaction ID 
+
+RBDTXT01 Text elements for customizing checks in distributed contracts 
+
+RSEAUTPA INCLUDE RSEAUTPA: Central Routines for Auth. Check for 0EDS,0EDV,0EDY 
+
+RSEBASIS EDI: INCLUDE for Alternative Structures and Access Routines 
+
+RSEBIDOC Object Type IDOCBASIS: Basic IDOC 
+
+RSEBSCHK EDI: Check System Type (Basis or Appl System)
+
+RSECEDI1 EDI Constants/Exceptions 
+
+RSECHK01 Test IDoc Type Segments for Consist. 
+
+RSECHK02 IDoc Types: Consist. Check 
+
+RSECHK03 IDoc Type Consist. Test 
+
+RSECHK04 Break Down of IDoc Types into Segments 
+
+RSECHK05 Evaluate Occurrences of IDoc Type Segments 
+
+RSECHK07 Consist. Test for Partner Profiles 
+
+RSECODIN IDoc: Display InB Process Codes 
+
+RSECODOU IDoc: Display OutB Process Codes 
+
+RSECODST IDoc: Display Status Process Codes 
+
+RSECODSY IDoc: Display System Process Codes 
+
+RSEIDC00 object type IDOCSYIDOC : Meta-IDoc 
+
+RSEIDOC1 WF-EDI: Doc. record types 
+
+RSEIDOC2 IDoc list 
+
+RSEIDOC3 Doc. IDoc Record Types and IDoc Types (Parser) 
+
+RSEIDOC4 WF-EDI: Doc. Segments 
+
+RSEIDOC5 WF-EDI: Doc. IDOC Type 
+
+RSEIDOC6 Doc. of IDoc Types (Overview) 
+
+RSEIDOC7 WF-EDI: Information System 
+
+RSEIDOCA Main Subprograms of the Program Group RSEIDOCx 
+
+RSEIDOCB EDI Statistics - Extended Selection 
+
+RSEIDOCC EDI Statistics - Error History 
+
+RSEIDOCD IDoc Lists 
+
+RSEIDOCE Detail Data on IDoc Status 
+
+RSEIDOCF Time Distribution of IDoc Creation 
+
+RSEIDOCG EDI: Convert current status in IDOCs 
+
+RSEIDOCI INCLUDE for List Formatting 
+
+RSEIDOCL Global form routines for IDoc display 
+
+RSEIDOCM CA-EDI: Active monitoring for IDoc Process 
+
+RSEINB00 InB Process of IDOCs (EDI) 
+
+RSEINB10 SAP-IDoc: Receiving IDocs from an R/2 System via CPI-C 
+
+RSEINB11 IDoc InB: Transfer of IDocs from an R/2 System to the Appl 
+
+RSEINB50 IDoc Inbox: Activate inbox and process IDocs with status '50' 
+
+RSEINBDT EDI InB Process (Global Data Declaration) 
+
+RSEINBEV IDoc InB: Customizing - Activate event-event receiver coupling
+
+RSEINBF0 EDI InB Process (FORM Routines) 
+
+RSEINBF1 EDI InB Process (Other FORM Routines) 
+
+RSEINBT1 Include RSEINBT1 
+
+RSELINKD Call display method for object 
+
+RSELOGAD EDI: Selection of Maintenance Interface for EDILOGADR 
+
+RSEMASSA EDI: Mass Activation of Partner Profiles 
+
+RSEOSTAT Object Type STATRECORD : Status Record 
+
+RSEOUT00 Process All Selected IDOCs (EDI) 
+
+RSEPCON1 Print Control Record of an IDOC 
+
+RSEPDAT1 Print a Data Record of an IDOC 
+
+RSEPDATA Print all Status Records of an IDOC 
+
+RSEPORTA IDoc: Tree display EDI and ALE ports 
+
+RSEPSEGA Print List of all SAP Segments of an IDOC 
+
+RSEPSTA1 Print a Status Record of an IDOC 
+
+RSEPSTAA Print all Status Records of an IDOC 
+
+RSEREPSG Repair IDoc Segments 
+
+RSESTA00 InB Process of Status Records (EDI)
+
+RSESTA02 object type IDOCSTATUS : Status record 
+
+RSESTA11 IDoc: Sending status records for InB IDocs to R/2 System 
+
+RSESTADT EDI InB Process (Global Data Declaration) 
+
+RSESTAF0 EDI InB Process (FORM Routines) 
+
+RSESTAF1 EDI InB Process (Other FORM Routines) 
+
+RSESTAT1 Print a Status Record of an IDOC 
+
+RSESTATA Print all Status Records of an IDOC 
+
+RSETESTP Report for Test for Existence of Master Data 
+
+RSETEXT0 Object Type IDOCTXTRAW: Text Msg 
+
+RSEXARCA Archiving IDocs 
+
+RSEXARCB IDoc archiving periodic implementation in background 
+
+RSEXARCD Delete Archived IDocs 
+
+RSEXARCL Reload Program IDoc Archive 
+
+RSEXARCR IDoc Archive Read Program 
+
+RSIDOCAM object type IDOCSTATIS : IDoc statistics 
+
+RSIDOCWF Object Type IDOC: EDI IDOC 
+
+RSNAST00 Process NAST Table Entries 
+
+RSNASTED Analysis of NAST Record for Output Type 6 (EDI) 
+
+SAPMSED0 WF-EDI: Maintain Partner Profiles 
+
+SAPMSED2 WF-EDI: Interface for Test Environment 
+
+SAPMSED3 EDI: IDoc - Segment Editor 
+
+SAPMSED5 EDI: Development of IDoc Types 
+
+SAPMSED7 IDoc: Test tool for IDoc InB Process 
+
+SAPMSED8 IDoc Doc. tools menu
 
 
+## Tables of Interest In EDI
 
-
+ARCH_OBJ Objects for Archiving 
+BDAUDQUEUE ALE Audit queue with not-processed 
+IDOCs 
+BDAUDSTATE Statistical key figures for the ALE Audit 
+BDCP Chg pointer 
+BDCPS Chg pointer: Status 
+BDSER Serialization: last date of object at sender 
+BTCUED User event IDs for background processing 
+CDHDR Change document header 
+CDPOS Change document items 
+CIMHIS EDI: Predecessors of Ext Types 
+CIMSYN Table for Syntax Desc of IDoc Type Exts 
+EDADM EDI client-specific system parameters 
+EDCIM EDI: Value Table for Cust. Ext Types 
+EDCIMT EDI: Short Desc of Ext Types 
+EDE1T EDI: Text table for OutB process codes 
+EDE2T EDI: Text table for iInB process codes 
+EDE5T EDI: Text table for error processing codes 
+EDE6T IDOC: Text table for proc cds for iInB statuses 
+EDFI2 EDI: Last processed Doc in file 
+EDFIL EDI: Last processed Doc in file 
+EDI_MONIT WF-EDI: Struc. for Dflt Values in EDI Mon 
+EDI30C IDOCClusters 3.0C Onward 
+EDI40 IDOC Records for 4.0 - 
+EDICONFIG CA-EDI: Param tbl for user configuration 
+EDID2 Data seg (IDOC) from 3.0C 
+EDID2 IDOC segments (version 3.1) 
+EDID3 Data seg table (EDI IDocs) from 3.0 
+EDID4 IDOC segments (version 4.6) 
+EDIDC Control record (EDI Intermediate Doc) 
+EDIDC IDOC Control Records 
+EDIDD Data seg (EDI Intermediate Doc) 
+EDIDO Value table for IDoc types 
+EDIDO Value table for IDoc types 
+EDIDOT Short Desc of IDoc types 
+EDIDOT Short description of IDoc types 
+EDIDS IDOC Status Records 
+EDIDS Status record (EDI IDoc) 
+EDIE5 Assign log. addr to phys destination in SAP 
+EDIFCT IDoc: Asgmnt of FM to log. Msg and IDoc 
+type 
+EDIFM IDoc: FMs for creating file names 
+EDIFMT IDoc: Text table for EDIFM (funct. module for 
+file names) 
+EDILOGADR Assign logical address to physical destination 
+EDIMAP EDI: Asgmnt Table Between IDoc and 
+Application Flds 
+EDIMSG EDI: Msg Types and Asgmnt to IDoc Types 
+EDIMSGT Short Desc of SAP Msg types 
+EDIPHONE CA-EDI: Telephony data for partner profiles 
+EDIPO Table for Desc of ports for EDI 
+EDIPOI Table for describing Internet ports 
+EDISEG EDI: IDoc Type Segs with Asgmnt to Seg 
+Type
