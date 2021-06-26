@@ -1291,5 +1291,68 @@ TNAPR Pgms for output. Pgm to SAPScript.
 
 ## IDOC Types
 
-
-
+|IDOC Type | Description |
+| ------ | ------ |
+| ABSEN1 |Attendance/Absence in CC1 |
+| ACCONF01 |Conf. of IDoc processing from appl. |
+| ACLPAY01 |Posting in acctng: InB invoice |
+| ACLREC01 |Posting in acctng: Billing document |
+| ACPJOU01 |Posting in acctng from Mat.s mgmt |
+| ACTIV3 |Units in CC3 |
+| ACTIV4 |Units in CC4 |
+| ALEAUD01 |Conf.s of the processing status of InB IDocs |
+| ALEREQ01 |General request - Basis IDoc type |
+| BATCH5 |Batch in CC5 |
+| BETMAS01 |Site Mstr. data Dist. ALE |
+| BLAORD01 |Purchasing contracts |
+| BLAORD02 |Purchasing contracts |
+| BLAREL01 |Contract release order statistics |
+| BOMDOC01 |Mstr. BOM - document |
+| BOMMAT01 |Mstr. BOM - Mat. |
+| BTC_ID01 |Process order with components |
+| BTC_ID02 |Production Req from superior system |
+| BTC_ID03 |Production commitment to superior system |
+| CHRMAS01 |Mstr. characteristic basic data |
+| CHRMAS02 |Mstr. attribute with object dependencies |
+| CLFMAS01 |Mstr. object classification |
+| CLSMAS01 |Mstr. class |
+| CLSMAS02 |Dist. of classes with object dependencies |
+| CMREQU01 |TR-CM: Invitation to TR-CM system to send data |
+| CMSEND01 |TR/CM-IDOC: XFer of TR-CM data |
+| CNPMAS01 |Mstr. configuration profile |
+| COACOR01 |Core Mstr. activity type |
+| COACTV01 |IDoc for cost center/activity type |
+| COAMAS01 |Mstr. activity type |
+| COCOKA01 |Control segment CO object/cost element |
+| CODCMT01 |IDoc for a CO document |
+| COELEM01 |Cost elements: Mstr. data Dist. |
+| COGRP01 |IDoc for CO groups (e.g. cost center groups) |
+| COND_A01 |Interchange of conditions: Mstr. data for price determ. |
+| CONDAT01 |Change to customizing data |
+| CONDA201 |ALE customizing Dist. add-on |
+| CONF11 |Conf.s in CC1 |
+| CONF21 |Conf.s in CC2, time events |
+| CONF31 |Conf.s in CC3, time events |
+| CONF32 |Conf.s in CC3, wage slips |
+| CONF41 |Conf.s in CC4, time events |
+| CONF42 |Conf.s in CC4, wage slips |
+| CONF51 |CC5 Conf.s run schedules |
+| COPAGN01 |CO-PA entry |
+| COPCPA01 |XFer product costing CO-PC -> CO-PA |
+| COSCOR01 |Core Mstr. cost center |
+| COSMAS01 |Mstr. cost center |
+| COTOTL01 |IDoc for CO totals records |
+| CRECOR01 |Vendor Mstr. data Dist. ALE Core Mstr. data |
+| CREMAS01 |Vendor Mstr. data Dist. ALE |
+| DEBCOR01 |Core Mstr. - customer |
+| DEBMAS01 |Customer Mstr. |
+| DEBMAS02 |Customer Mstr. |
+| DELFOR01 |Delivery schedule/JIT schedule |
+| DES_ID01 |Shipping notification |
+| DESADV01 |Shipping notification |
+| DIFFE2 |Differences in CC2 |
+| DIFFE3 |Differences in CC3 |
+| DIFFE4 |Differences in CC4 ||
+|DISTU2 |Reasons for problems CC2 |
+|DOCMAS01 |Mstr. document |
+|DOCMAS02 |Document 02|
