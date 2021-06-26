@@ -1401,11 +1401,11 @@ TNAPR Pgms for output. Pgm to SAPScript.
 |OPERS3 |Operation status in CC3 |
 |OPERS4 |Operation status in CC4 |
 |ORD_ID01 |Req.for quot./quotation/purchase order/order change |
-|ORDERS01 Purchasing/Sales |
-|ORDERS02 Purchasing/Sales |
-|OSTAT2 Process status CC2 |
-|PEROP2 Person reference to operation |
-|PERSO1 Personnel Mstr. records in CC1 |
+|ORDERS01 |Purchasing/Sales |
+|ORDERS02 |Purchasing/Sales |
+|OSTAT2 |Process status CC2 |
+|PEROP2 |Person reference to operation |
+|PERSO1 |Personnel Mstr. records in CC1 |
 |PERSO2 |Personnel Mstr. in CC2 |
 |PERSO3 |Personnel Mstr. in CC3 |
 |PERSO4 |Personnel Mstr. in CC4 |
@@ -1480,3 +1480,70 @@ TNAPR Pgms for output. Pgm to SAPScript.
 |WPUWBW01 |POS interface: Upload goods movements|
 
 
+
+
+
+User Exits and Enhancements
+
+
+
+|IDOC |Dir |Enhancemnt |Description|
+| ------ | ------ | ------ |------ |
+|BLAOCH |IO |MM06E002| Contracts Change |
+|BLAORD |IO |MM06E002| Contracts |
+|BLAREL |IO |MM06E002| Contract Release |
+|COND_A |O |VKOE0001 |Pricing Conditions |
+|COND_A |I |VKOI0001| Pricing Conditions |
+|CREMAS |IO |VSV00001| Vendor Master |
+|DEBMAS |IO |VSV00001| Customer Master |
+|DELINS |O |MM06E001| Scheduling Agreement |
+|DESADV |I |MM06E001| Advance Shipment Notice |
+|FIDCMT |IO |F050S001| Distrib. Genl. Ledger |
+|INFREC |O |MMAL0003| Purchasing Info Rec |
+|INFREC |I |MMAL0004| Purchasing Info Rec |
+|INVOIC |O |LVEDF001| Invoices |
+|INVOIC |I |FEDI0001| FI Invoices |
+|MATMAS |IO |MGV00001| Material master |
+|ORDCHG |O |MM06E001| Purch. Ord. Change |
+|ORDCHG |I |VEDB0001| Sales Ord. Change |
+|ORDERS |O |MM06E001| Purchase Orders |
+|ORDERS |I |VEDA0001| Sales Orders |
+|ORDRSP |O |SDEDI001| Order Confirmation |
+|ORDRSP |I |MM06E001| Order Response for Purchase Order |
+|PAYEXT |I |FEDI0002| Payment Order |
+|PAYEXT |O |FEDI0003| Payment Order |
+|REMADV |I |FEDI0002| Remittance Advice |
+|REMADV |O |FEDI0003| Remittance Advice |
+|REQOTE |I |VEDQ0001| InB Req for Quote |
+|SDPACK |I |VMDE0001| Err Handling Input IDOC |
+|SDPACK |I |VMDE0004| Packing |
+|SDPICK |I |VMDE0001| Err Handling Input IDOC |
+|SDPICK |O |VMDE0002| Picking |
+|SDPICK |I |VMDE0003| Picking |
+|SRCLST |O |MMAL0001| Source List |
+|SRCLST |I |MMAL0002| Source List |
+|SRVMAS |O |BASO0001| Service Master |
+|SRVMAS |I |BASI0001| Service Master |
+|WMBBIN |I |MWMIDI01| Err Handling Input IDOC |
+|WMBBIN |I |MWMINI04| Block Storage Type |
+|WMCATO |I |MWMIDI01| Err Handling Input IDOC |
+|WMCATO |I |MWMIDI03| Cancel Req Transfer Ord |
+|WMCATO |O |MWMIDO02| Cancel Req Transfer Ord |
+|WMINVE |I |MWMIDO07| Err Handling Input IDOC |
+|WMINVE |I |MWMIDO09| Count Data Inventory |
+|WMINVE |O |MWMIDO04| Count Data Inventory |
+|WMMBXY |I |MWMIDO07| Err Handling Input IDOC |
+|WMMBXY |I |MWMIDO08| Goods Movement |
+|WMRREF |O |MWMIDO03| Release Reference Numb |
+|WMSUMO |I |MWMIDI01| Err Handling Input IDOC |
+|WMSUMO |I |MWMIDI06| Move Storage Unit |
+|WMTOCO |I |MWMIDI01| Err Handling Input IDOC |
+|WMTOCO |I |MWMIDI02| Confirm Transfer Order |
+|WMTORD |I |MWMIDO07| Err Handling Input IDOC |
+|WMTORD |I |MWMIDO10| Create Transfer Order |
+|WMTORD |O |MWMIDO01| Create Transfer Order |
+|WMTREQ |I |MWMIDI01| Err Handling Input IDOC |
+|WMTREQ |I |MWMIDI05| Create Transfer Request |
+|ORDERS |I |LVEDAF0U| Sales Order |
+|ORDCHG |I |LVEDBF0U| Sales Order Change ||
+|DESADV |O |LVED2FZZ| Advanced ShippingNotice|
